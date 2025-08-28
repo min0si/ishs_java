@@ -1,6 +1,6 @@
 public class DataType {
     public static void main(String[] args) {
-        int score = 87.5;
+        int score = 100;
         float gpa = 4.13F;
         System.out.println(score);
         score = (int)99.9; //명시적 방법
