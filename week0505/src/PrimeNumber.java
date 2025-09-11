@@ -17,16 +17,25 @@ public class PrimeNumber {
     }
 
     public static void main(String[] args) {
-       //System.out.println(Math.sqrt(25.0));
-        Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
+        int[] numbers = {111, 977, 1, 2, 53, 1200};
+        for(int number : numbers){
+            if(isPrime(number)) {
+                System.out.println(number+"is a prime number");
+            }
+            else{
+                System.out.println(number + "is not a prime number");
+            }
+        }
 
-        if(isPrime(number)){
-            System.out.println(number+"is a prime number");
-        }
-        else{
-            System.out.println(number+"is not a prime number");
-        }
+//        for(int i=0; i<6; i++){
+//            if(isPrime(numbers[i])){
+//                System.out.println(numbers[i]+"is a prime number");
+//            }
+//            else {
+//                System.out.println(numbers[i] + "is not a prime number");
+//            }
+//
+//        }
     }
 }
 
